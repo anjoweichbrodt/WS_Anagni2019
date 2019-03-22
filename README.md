@@ -4,3 +4,5 @@ International Summer School on Historic Masonry - Anagni 2019
 ![img](Tools/masonry_structures_school_2019_anagni-logo-e1547807560485_1550829849_1920x1080.png)
 
 General website: [https://historicmasonryschool2019.wordpress.com/](https://historicmasonryschool2019.wordpress.com/)
+
+The Block Research Group will be part of the International Summer School on Historic Masonry in Anagni, Italy from the 17th to the 29 of June 2019. 
