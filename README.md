@@ -10,9 +10,10 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
 * **[Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)** at the American Academy in Rome.
 
 ## Theory
-* TNA
-* **TNA
-* **[TNA]
+* Thrust Network Analysis (TNA)
+* Discrete Element Method (DEM)
+* Piecewise Rigid Discrete (PRD)
+
 
 
 ## Tools
