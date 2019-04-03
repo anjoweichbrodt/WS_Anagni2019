@@ -5,17 +5,6 @@ International Summer School on Historic Masonry - Anagni 2019
 
 General website: [https://historicmasonryschool2019.wordpress.com/](https://historicmasonryschool2019.wordpress.com/)
 
-## Lecture by Prof. Philippe Block
-
-* **[Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)** at the American Academy in Rome.
-
-
-## Tools
-* Installation
-  * Softwares
-* Test files
-* Examples
-* Geometry Data
 
 ## BRG Day 1: Wednesday 19/06/2019
 
@@ -42,7 +31,19 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
       * Recap day and open discussion
 
 
-## BRG Day 2: Thursday  20/06/2019
+### BRG Day 2: Thursday  20/06/2019
+
+## Lecture by Prof. Philippe Block
+
+* **[Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)** at the American Academy in Rome.
+
+
+## Tools
+* Installation
+  * Softwares
+* Test files
+* Examples
+* Geometry Data
 
 ## BRG Workshop:
  # WS Day 1
