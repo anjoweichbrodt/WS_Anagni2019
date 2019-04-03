@@ -35,7 +35,7 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
 
    * Afternoon 19.30 - 21.00
 
-      *[Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)** by Prof. Philippe Block at the American Academy in Rome.
+      *[Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)* by Prof. Philippe Block at the American Academy in Rome, "Learning from the past to design a better future".
 
 
 ## Tools
