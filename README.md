@@ -31,11 +31,9 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
       * Recap day and open discussion
 
 
-### BRG Day 2: Thursday  20/06/2019
+## BRG Day 2: Thursday  20/06/2019
 
-## Lecture by Prof. Philippe Block
-
-* **[Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)** at the American Academy in Rome.
+   *[Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)** Prof. Philippe Block at the American Academy in Rome.
 
 
 ## Tools
