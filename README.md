@@ -9,10 +9,6 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
 
 * **[Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)** at the American Academy in Rome.
 
-## Theory
-* Thrust Network Analysis (TNA)
-* Discrete Element Method (DEM)
-* Piecewise Rigid Discrete (PRD)
 
 ## Tools
 * Installation
@@ -20,3 +16,44 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
 * Test files
 * Examples
 * Geometry Data
+
+## BRG Day 1: Wednesday 19/06/2019
+
+   Morning part_1 9.00 - 10.30
+   
+      - Overview Lecture: Computational analysis of URM using compas
+
+   
+   Morning part_2 11.00 - 13.00
+   
+      - Thrust Network Analysis (TNA) theory lecture
+      - TNA tutorial: importance of force pattern layout
+      
+      
+   Afternoon part_1 15.00 - 16.30
+
+      - Rigid Block Equilibrium (RBE) theory lecture
+      - RBE tutorial: brick wall and balanced stack
+
+   
+   Afternoon part_2 17.00 - 19.00
+
+      - Discrete Element Modeling (DEM) theory lecture
+      - DEM tutorial: simple vault on moving support
+      
+      
+   After dinner session 21.00 - 22.00
+
+    - Recap day and open discussion
+
+
+
+## BRG Day 2: Thursday  20/06/2019
+
+## BRG Workshop:
+ # WS Day 1
+ # WS Day 2
+ # WS Day 3
+ # WS Day 4
+ # WS Day 1
+ 
