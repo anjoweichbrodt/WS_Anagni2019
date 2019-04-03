@@ -37,7 +37,7 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
         * Further development
         
       * RBE tutorial: brick wall and balanced stack
-        * Trullo cross section (corbelled structure)
+        * Corbelled arch
 
    
    * Afternoon part_2 17.00 - 19.00
