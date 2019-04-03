@@ -20,32 +20,26 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
 ## BRG Day 1: Wednesday 19/06/2019
 
    * Morning part_1 9.00 - 10.30
-   
       * Overview Lecture: Computational analysis of URM using compas
 
    
    * Morning part_2 11.00 - 13.00
-   
       * Thrust Network Analysis (TNA) theory lecture
       * TNA tutorial: importance of force pattern layout
       
       
    * Afternoon part_1 15.00 - 16.30
-
       * Rigid Block Equilibrium (RBE) theory lecture
       * RBE tutorial: brick wall and balanced stack
 
    
    * Afternoon part_2 17.00 - 19.00
-
       * Discrete Element Modeling (DEM) theory lecture
       * DEM tutorial: simple vault on moving support
       
       
    * After dinner session 21.00 - 22.00
-
-    * Recap day and open discussion
-
+      * Recap day and open discussion
 
 
 ## BRG Day 2: Thursday  20/06/2019
