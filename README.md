@@ -6,10 +6,9 @@ International Summer School on Historic Masonry - Anagni 2019
 General website: [https://historicmasonryschool2019.wordpress.com/](https://historicmasonryschool2019.wordpress.com/)
 
 
-## BRG Day 1: Wednesday 19/06/2019
-
-   * Morning part_1 9.00 - 10.30
-      * Overview Lecture: Computational analysis of URM using compas
+## BRG Day 1: Tuesday 18/06/2019  12.30 - 13.30
+   * Overview Lecture: compas_masonry
+      * placeholder
         * Problem statement
         * State of the art
         * SNF project: research approach
@@ -68,19 +67,6 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
  # WS Day 1
    * Afternoon 19.30 - 21.00
     
- # WS Day 2
-   * Afternoon 19.30 - 21.00
- 
- # WS Day 3
-   * Afternoon 19.30 - 21.00
- 
- # WS Day 4
-   * Afternoon 19.30 - 21.00
- 
- # WS Day 5
-   * Afternoon 19.30 - 21.00
- 
-  
  
 ## Tools
 * Installation
