@@ -7,30 +7,30 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
 
 
 ## BRG Day 1: Tuesday 18/06/2019
-   * Part_1 12.30 - 13.30:
+   * Part 1 (12.30 - 13.30)
       * Overview Lecture: compas_masonry
    
-   * Part_2 17.00 - 17.30
+   * Part 2 (17.00 - 17.30)
       * Thrust Network Analysis (TNA) - theory
       
-   * Part_3 17.30 - 19.00
+   * Part 3 (17.30 - 19.00)
       * Thrust Network Analysis (TNA) - tutorial
 
 
 ## BRG Day 2: Wednesday 19/06/2019
-   * Part_1 13.00 - 13.30:
+   * Part 1 (13.00 - 13.30)
       * Discrete Element Modeling (DEM) - theory
 
-   * Part_2 15.00 - 16.00
+   * Part 2 (15.00 - 16.00)
       * Discrete Element Modeling (DEM) - tutorial
 
-   * Part_3 16.00 - 16.30:
+   * Part 3 (16.00 - 16.30)
       * Rigid Block Equilibrium (RBE) - theory
 
-   * Part_4 17.00 - 18.00
+   * Part 4 (17.00 - 18.00)
       * Rigid Block Equilibrium (RBE) - tutorial     
 
-   * Part_5 18.00 - 19.00
+   * Part 5 (18.00 - 19.00)
       * Piece-wise Rigid Displacements (PRD) - tutorial   
       
       
@@ -44,12 +44,14 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
 ## Tools
 * Installation
   * Softwares
-  *[Rhinoceros for Windows](https://www.rhino3d.com/it/download/rhino-for-windows/6/evaluation)
-  *[Rhinoceros for Mac](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)
   
-  *[3DEC demo version](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)
+    *[Rhino 6 for Windows](https://www.rhino3d.com/it/download/rhino-for-windows/6/evaluation)
+    *[Rhino 5 for Windows](https://www.rhino3d.com/download/rhino/5/latest)
+    *[Rhinoceros for Mac](https://www.rhino3d.com/download/rhino-for-mac/5/evaluation)
   
-  *[Sublime](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)
+    *[3DEC demo version](https://www.itascacg.com/software-demo)
+  
+    *[Sublime](https://www.sublimetext.com/)
   
 * Test files
 * Examples
