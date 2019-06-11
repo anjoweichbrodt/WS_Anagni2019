@@ -43,13 +43,13 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
  
 ## Tools
 * Installation
-  * Softwares
+  * Software
   
     [Rhino 6 for Windows](https://www.rhino3d.com/it/download/rhino-for-windows/6/evaluation)
     
     [Rhino 5 for Windows](https://www.rhino3d.com/download/rhino/5/latest)
     
-    [Rhinoceros for Mac](https://www.rhino3d.com/download/rhino-for-mac/5/evaluation)
+    [Rhino for Mac](https://www.rhino3d.com/download/rhino-for-mac/5/evaluation)
  
     [3DEC demo version](https://www.itascacg.com/software-demo)
   
