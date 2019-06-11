@@ -14,7 +14,7 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
       * Thrust Network Analysis (TNA) - theory
       
    * Part 3 (17.30 - 19.00)
-      * Thrust Network Analysis (TNA) - tutorial
+      * Thrust Network Analysis (TNA) - [tutorial]
 
 
 ## BRG Day 2: Wednesday 19/06/2019
@@ -54,8 +54,5 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
     [3DEC demo version](https://www.itascacg.com/software-demo)
   
     [Sublime](https://www.sublimetext.com/)
-  
-* Test files
-* Examples
-* Geometry Data
+
 
