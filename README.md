@@ -5,110 +5,121 @@ International Summer School on Historic Masonry - Anagni 2019
 
 General website: [https://historicmasonryschool2019.wordpress.com/](https://historicmasonryschool2019.wordpress.com/)
 
+## Schedule
 
-## BRG Day 1: Tuesday 18/06/2019
-   * Part 1 (12.30 - 13.30)
-      * Overview Lecture: compas_masonry
-   
-   * Part 2 (17.00 - 17.30)
-      * Thrust Network Analysis (TNA) - [Theory](Theory/TNA)
+**Tuesday 18/06/2019**
+
+Time | Topic
+---  | ---
+12.30 - 13.30 | Overview Lecture `compas_masonry`
+17.00 - 17.30 | Thrust Network Analysis (TNA) - theory
+17.30 - 19.00 | Thrust Network Analysis (TNA) - tutorial
+
+**Wednesday 19/06/2019**
+
+Time | Topic
+---  | ---
+13.00 - 13.30 | Discrete Element Modeling (DEM) - theory
+15.00 - 16.00 | Discrete Element Modeling (DEM) - tutorial
+16.00 - 16.30 | Rigid Block Equilibrium (RBE) - theory
+17.00 - 18.00 | Rigid Block Equilibrium (RBE) - tutorial     
+18.00 - 19.00 | Piece-wise Rigid Displacements (PRD) - tutorial   
       
-   * Part 3 (17.30 - 19.00)
-      * Thrust Network Analysis (TNA) - tutorial
+**Thursday  20/06/2019**
 
-
-## BRG Day 2: Wednesday 19/06/2019
-   * Part 1 (13.00 - 13.30)
-      * Discrete Element Modeling (DEM) - theory
-
-   * Part 2 (15.00 - 16.00)
-      * Discrete Element Modeling (DEM) - tutorial
-
-   * Part 3 (16.00 - 16.30)
-      * Rigid Block Equilibrium (RBE) - theory
-
-   * Part 4 (17.00 - 18.00)
-      * Rigid Block Equilibrium (RBE) - tutorial     
-
-   * Part 5 (18.00 - 19.00)
-      * Piece-wise Rigid Displacements (PRD) - tutorial   
-      
-      
-## BRG Day 3: Thursday  20/06/2019
-
-   * (16.45 - 18.00)
-
-      *[Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)* by Prof. Philippe Block at the American Academy in Rome, "Reimagining Shell Structures: Learning from the Master Builders".
+Time | Topic
+---  | ---
+16.45&nbsp;-&nbsp;18.00 | [Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0) by Prof. Philippe Block at the American Academy in Rome, "Reimagining Shell Structures: Learning from the Master Builders".
 
  
-## Tools
-* Installation
-  * Software
-  
-    [Rhino 6 for Windows](https://www.rhino3d.com/it/download/rhino-for-windows/6/evaluation)
-    
-    [Rhino 5 for Windows](https://www.rhino3d.com/download/rhino/5/latest)
-    
-    [Rhino for Mac](https://www.rhino3d.com/download/rhino-for-mac/5/evaluation)
- 
-    [3DEC demo version](https://www.itascacg.com/software-demo)
-  
-    [Sublime](https://www.sublimetext.com/)
+## Preparations
 
+**1. Install required tools**
 
+*   [Anaconda 3](https://www.anaconda.com/distribution/)
+*   [Rhino](https://www.rhino3d.com/download)
+*   [VS Code](https://code.visualstudio.com/) or [Sublime Text 3](https://www.sublimetext.com/3) 
+*   [3DEC demo version](https://www.itascacg.com/software-demo)
 
-## compas Installation
+If you still have an old installation of Anaconda (for example version 2), please remove it.
+Install Anaconda 3 in a sensible location, and don't register it on the PATH (Windows). 
+The recommended location for installing Anaconda is in your home directory
 
-**Install the latest released version of COMPAS using `conda`**
+* Mac: `~/anaconda3`
+* Windows: `%USERPROFILE%\Anaconda3`
+
+If you are using Rhino 5 on Windows, make sure to upgrade IronPython to `2.7.5`.
+There are [detailed instructions in the COMPAS documentation](https://compas-dev.github.io/main/environments/rhino.html)
+that explain how to do this.
+
+**2. Install COMPAS**
+
+To install COMPAS, simply type the following on the command line
+
+> **Note**
+>
+> On Windows, use the Anaconda Prompt (launched as administrator), not the Command Prompt.
+> <br />On Mac, use the Terminal.
+>
 
 ```bash
 conda config --add channels conda-forge
 conda install COMPAS
 ```
 
-**Check your installation**
-
-Launch the interactive Python interpreter and import `compas`, `compas_rhino`, `compas_ghpython`.
+On Mac, also run the following
 
 ```bash
->>> import compas
->>> import compas_rhino
->>> import compas_ghpython
->>> compas.__version__
-0.5.1
+conda install python.app
 ```
 
-If no error messages appear and the COMPAS version is correct, you're good to go.
-Type `exit()` to quit the interpreter.
+To check the installation, print the version of COMPAS in the interactive Python interpreter
 
-**Configure your editor**
+```python
+>>> import compas
+>>> compas.__version__
+'0.6.2'
+>>> exit()
+```
 
-Detailed instructions can be found here:
+**3. Install COMPAS for Rhino**
 
-*   Sublime Text 3: https://compas-dev.github.io/main/environments/sublimetext.html
-*   VS Code: https://compas-dev.github.io/main/environments/vscode.html
+If this is the first time you are using Rhino (Windows), or if you have never opened the
+RhinoScriptEditor before, first open Rhino and then the RhinoScriptEditor,
+by typing `EditPythonScript`. Then simply close Rhino again.
+After that, on the command line, simply type
 
-Once everything is set up, run `verify_editor.py` to check the setup.
-If this prints `0.5.1` in the Terminal window, your editor is properly configured.
+```bash
+python -m compas_rhino.install
+```
 
-**Install COMPAS for Rhino**
-
-To make the installed COMPAS packages available in Rhino run the following on the command line
+On Windows, you can specify the version of Rhino for which COMPAS should be installed.
+The default on Windows is Rhino 6 and on Mac there is only Rhino 5.
+To install COMPAS for Rhino 5 on Windows, do
 
 ```bash
 python -m compas_rhino.install -v 5.0
 ```
 
-> **Note** (Windows only)
->
-> Use `-v 6.0` instead of `-v 5.0` if you want to use Rhino 6 instead of Rhino 5.
+To check the installation, launch Rhino and run the verification script that
+can be found at the root of the workshop repo: `verify_rhino.py`
+To run a script in Rhino, just type `RunPythonScript` at the Rhino command prompt
+and select the verification scriopt from the repo.
+The script should print out the version of COMPAS (`'0.6.2'`) in the console window.
 
-Open Rhino and run `verify_rhino.py`.
-If this does not throw an error and prints the correct COMPAS version (`0.5.1`),
-Rhino is properly configured.
+![Rhino - verify](images/rhino-verify.png)
 
-> **Note**
->
-> To run a script in Rhino, just type `RunPythonScript` at the Rhino command prompt
-> and select the script you want to run.
+
+**4. Install additional packages**
+
+* shapely
+* cvxopt
+* cvxpy
+* cplex
+
+## First Steps
+
+
+
+## Known Issues
 
