@@ -7,30 +7,30 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
 
 
 ## BRG Day 1: Tuesday 18/06/2019
-   * Part 1 12.30 - 13.30:
+   * Part_1 12.30 - 13.30:
       * Overview Lecture: compas_masonry
    
-   * Part 2 17.00 - 17.30
+   * Part_2 17.00 - 17.30
       * Thrust Network Analysis (TNA) - theory
       
-   * Part 3 17.30 - 19.00
+   * Part_3 17.30 - 19.00
       * Thrust Network Analysis (TNA) - tutorial
 
 
 ## BRG Day 2: Wednesday 19/06/2019
-   * Part 1 13.00 - 13.30:
+   * Part_1 13.00 - 13.30:
       * Discrete Element Modeling (DEM) - theory
 
-   * Part 2 15.00 - 16.00
+   * Part_2 15.00 - 16.00
       * Discrete Element Modeling (DEM) - tutorial
 
-   * Part 3 16.00 - 16.30:
+   * Part_3 16.00 - 16.30:
       * Rigid Block Equilibrium (RBE) - theory
 
-   * Part 4 17.00 - 18.00
+   * Part_4 17.00 - 18.00
       * Rigid Block Equilibrium (RBE) - tutorial     
 
-   * Part 5 18.00 - 19.00
+   * Part_5 18.00 - 19.00
       * Piece-wise Rigid Displacements (PRD) - tutorial   
       
       
@@ -40,16 +40,17 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
 
       *[Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)* by Prof. Philippe Block at the American Academy in Rome, "Reimagining Shell Structures: Learning from the Master Builders".
 
-
-## BRG Workshop:
-
- # WS Day 1
-   * Afternoon 19.30 - 21.00
-    
  
 ## Tools
 * Installation
   * Softwares
+  *[Rhinoceros for Windows](https://www.rhino3d.com/it/download/rhino-for-windows/6/evaluation)
+  *[Rhinoceros for Mac](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)
+  
+  *[3DEC demo version](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)
+  
+  *[Sublime](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)
+  
 * Test files
 * Examples
 * Geometry Data
