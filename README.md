@@ -11,7 +11,7 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
       * Overview Lecture: compas_masonry
    
    * Part 2 (17.00 - 17.30)
-      * Thrust Network Analysis (TNA) - [theory](src/day_1)
+      * Thrust Network Analysis (TNA) - [theory](theory/TNA)
       
    * Part 3 (17.30 - 19.00)
       * Thrust Network Analysis (TNA) - tutorial
