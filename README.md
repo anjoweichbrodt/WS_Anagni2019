@@ -55,4 +55,58 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
   
     [Sublime](https://www.sublimetext.com/)
 
+## compas Installation
+
+**Install the latest released version of COMPAS using `conda`**
+
+```bash
+conda config --add channels conda-forge
+conda install COMPAS
+```
+
+**Check your installation**
+
+Launch the interactive Python interpreter and import `compas`, `compas_rhino`, `compas_ghpython`.
+
+```bash
+>>> import compas
+>>> import compas_rhino
+>>> import compas_ghpython
+>>> compas.__version__
+0.5.1
+```
+
+If no error messages appear and the COMPAS version is correct, you're good to go.
+Type `exit()` to quit the interpreter.
+
+**Configure your editor**
+
+Detailed instructions can be found here:
+
+*   Sublime Text 3: https://compas-dev.github.io/main/environments/sublimetext.html
+*   VS Code: https://compas-dev.github.io/main/environments/vscode.html
+
+Once everything is set up, run `verify_editor.py` to check the setup.
+If this prints `0.5.1` in the Terminal window,your editor is properly configured.
+
+**Install COMPAS for Rhino**
+
+To make the installed COMPAS packages available in Rhino run the following on the command line
+
+```bash
+python -m compas_rhino.install -v 5.0
+```
+
+> **Note** (Windows only)
+>
+> Use `-v 6.0` instead of `-v 5.0` if you want to use Rhino 6 instead of Rhino 5.
+
+Open Rhino and run `verify_rhino.py`.
+If this does not throw an error and prints the correct COMPAS version (`0.5.1`),
+Rhino is properly configured.
+
+> **Note**
+>
+> To run a script in Rhino, just type `RunPythonScript` at the Rhino command prompt
+> and select the script you want to run.
 
