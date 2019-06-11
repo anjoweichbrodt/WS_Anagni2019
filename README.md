@@ -6,60 +6,39 @@ International Summer School on Historic Masonry - Anagni 2019
 General website: [https://historicmasonryschool2019.wordpress.com/](https://historicmasonryschool2019.wordpress.com/)
 
 
-## BRG Day 1: Tuesday 18/06/2019  12.30 - 13.30
-   * Overview Lecture: compas_masonry
-      * placeholder
-        * Problem statement
-        * State of the art
-        * SNF project: research approach
-        * compas
+## BRG Day 1: Tuesday 18/06/2019
+   * Part 1 12.30 - 13.30:
+      * Overview Lecture: compas_masonry
    
-   * Morning part_2 11.00 - 13.00
-      * Thrust Network Analysis (TNA) theory lecture
-        * From TLA to TNA
-        * Form and Force diagram
-        * Form finding and Best fit
-        
-      * TNA tutorial: importance of force pattern layout
-        * Free form vault
-        * Step 1 Force attraction
-        * Step 2 Force attraction
-        * Step 3 Support conditions
-        * Step 4 "Manual" best fit      
+   * Part 2 17.00 - 17.30
+      * Thrust Network Analysis (TNA) - theory
       
-   * Afternoon part_1 15.00 - 16.30
-      * Rigid Block Equilibrium (RBE) theory lecture
-        * Livesley, Whiting, Frick
-        * What RBE does? Forces at the interfaces (compression, tension and friction)
-        * Applications 
-        * Work done
-        * Further development
-        
-      * RBE tutorial: brick wall and balanced stack
-        * Corbelled arch
+   * Part 3 17.30 - 19.00
+      * Thrust Network Analysis (TNA) - tutorial
 
-   
-   * Afternoon part_2 17.00 - 19.00
-      * Discrete Element Modeling (DEM) theory lecture
-        * Cundall
-        * What 3DEC does? Forces at the interfaces, kinematics
-        * Applications
-        * Work done
-        * Further development
-      
-      * DEM tutorial: simple vault on moving support
-        * Geometry with max 50 blocks (different arches?, pointed, round, etc.) 
+
+## BRG Day 2: Wednesday 19/06/2019
+   * Part 1 13.00 - 13.30:
+      * Discrete Element Modeling (DEM) - theory
+
+   * Part 2 15.00 - 16.00
+      * Discrete Element Modeling (DEM) - tutorial
+
+   * Part 3 16.00 - 16.30:
+      * Rigid Block Equilibrium (RBE) - theory
+
+   * Part 4 17.00 - 18.00
+      * Rigid Block Equilibrium (RBE) - tutorial     
+
+   * Part 5 18.00 - 19.00
+      * Piece-wise Rigid Displacements (PRD) - tutorial   
       
       
-   * After dinner session 21.00 - 22.00
-      * Recap day and open discussion
+## BRG Day 3: Thursday  20/06/2019
 
+   * Afternoon 16.45 - 18.00
 
-## BRG Day 2: Thursday  20/06/2019
-
-   * Afternoon 19.30 - 21.00
-
-      *[Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)* by Prof. Philippe Block at the American Academy in Rome, "Learning from the past to design a better future".
+      *[Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)* by Prof. Philippe Block at the American Academy in Rome, "Reimagining Shell Structures: Learning from the Master Builders".
 
 
 ## BRG Workshop:
