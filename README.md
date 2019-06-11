@@ -36,7 +36,7 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
       
 ## BRG Day 3: Thursday  20/06/2019
 
-   * Afternoon 16.45 - 18.00
+   * (16.45 - 18.00)
 
       *[Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0)* by Prof. Philippe Block at the American Academy in Rome, "Reimagining Shell Structures: Learning from the Master Builders".
 
