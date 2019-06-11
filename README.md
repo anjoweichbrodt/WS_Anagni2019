@@ -55,6 +55,8 @@ General website: [https://historicmasonryschool2019.wordpress.com/](https://hist
   
     [Sublime](https://www.sublimetext.com/)
 
+
+
 ## compas Installation
 
 **Install the latest released version of COMPAS using `conda`**
@@ -87,7 +89,7 @@ Detailed instructions can be found here:
 *   VS Code: https://compas-dev.github.io/main/environments/vscode.html
 
 Once everything is set up, run `verify_editor.py` to check the setup.
-If this prints `0.5.1` in the Terminal window,your editor is properly configured.
+If this prints `0.5.1` in the Terminal window, your editor is properly configured.
 
 **Install COMPAS for Rhino**
 
