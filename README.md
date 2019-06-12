@@ -26,7 +26,7 @@ Time | Topic
 
 Time | Topic
 ---  | ---
-16.45&nbsp;-&nbsp;18.00 | [Lecture](https://www.dropbox.com/s/6sq1ypvg06iaabq/20190110_Tongji_PBlock.pdf?dl=0) by Prof. Philippe Block at the American Academy in Rome, "Reimagining Shell Structures: Learning from the Master Builders".
+16.45&nbsp;-&nbsp;18.00 | Lecture by Prof. Philippe Block at the American Academy in Rome, "Reimagining Shell Structures: Learning from the Master Builders".
 
  
 ## Preparations
