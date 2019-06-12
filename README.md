@@ -31,12 +31,12 @@ Time | Topic
  
 ## Preparations
 
-**Clean up**
+**1. Clean up**
 
 *   If you have an old version of Anaconda installed (for example Anaconda 2), please uninstall it.
 *   If you have a version of Python registered on your `PATH`, please remove it (Windows only).
 
-**Install required software**
+**2. Install required software**
 
 *Note that this may take a while.*
 
@@ -72,7 +72,7 @@ in the COMPAS documentation that explain how to do this.
 Instructions for configuring Sublime Text are also available in the COMPAS docs:
 https://compas-dev.github.io/main/environments/sublimetext.html
 
-**Download repository**
+**3. Download repository**
 
 Finally, download the workshop repository to your computer and unzip it.
 You should be on the main repository page now.
@@ -99,20 +99,15 @@ For example, create a folder called "Workshops" on your home drive and unzip the
 
 Many instructions in the next sections will have to be run from "the command line".
 
-*On Windows*
-
-Use the "Anaconda Prompt" instead of the "Command Prompt", and make sure to run it *as administrator*.
+On Windows, use the "Anaconda Prompt" instead of the "Command Prompt", and make sure to run it *as administrator*.
 
 > To find the Anaconda Prompt open the Start Menu and type "Anaconda".
 > The Anaconda Prompt should already show up in the list of search results.
 > To launch is as administrator, right click and select "Run as administrator".
 
-*On Mac*
+On Mac, use the "Terminal".
 
-Use the "Terminal" app.
-
-**For simplicity, this guide refers to both Terminal and Anaconda Prompt as "the command line",
-which thus means the Terminal on Mac and the Anaconda Prompt (run as administrator) on Windows.**
+**For simplicity, this guide will refer to both Terminal and Anaconda Prompt as "the command line".**
 
 ## Installation
 
@@ -179,8 +174,7 @@ import compas_assembly
 
 ## Issues
 
-**Many problems during installation are related to misspelled paths or command line instructions.
-Always check that first.**
+**Many problems during installation are related to misspelled paths or command line instructions.**
 
 If you run into problems with the above instructions, the preferred way to ask
 for help is through the issue tracker of the current repository at https://github.com/BlockResearchGroup/WS_Anagni2019/issues
