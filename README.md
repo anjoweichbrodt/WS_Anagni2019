@@ -40,12 +40,13 @@ Time | Topic
 
 *   [Anaconda 3](https://www.anaconda.com/distribution/)
 *   [Rhino](https://www.rhino3d.com/download)
-*   [VS Code](https://code.visualstudio.com/)
+*   [Sublime Text 3](https://www.sublimetext.com/3)
+*   [Git](https://git-scm.com/downloads) (Windows only)
 *   [3DEC demo version](https://www.itascacg.com/software-demo) (Windows only)
 *   [Microsoft Visual C++ Compiler for Python 2.7](https://www.microsoft.com/en-us/download/details.aspx?id=44266) (Windows only)
-*   [Git](https://git-scm.com/downloads) (Windows only)
 
-Please install Anaconda in the recommended location, and don't register it on the `PATH` (Windows). The recommended location for installing Anaconda is in your home directory
+During the installation of the various tools, just accept all default settings.
+Make sure to install Anaconda in the recommended location, and don't register it on the `PATH` (Windows). The recommended location for installing Anaconda is in your home directory
 
 * Mac: `~/anaconda3`
 * Windows: `%USERPROFILE%\Anaconda3`
@@ -54,35 +55,32 @@ If you are using Rhino 5 on Windows, make sure to upgrade IronPython to `2.7.5` 
 There are [detailed instructions in the COMPAS documentation](https://compas-dev.github.io/main/environments/rhino.html)
 that explain how to do this.
 
-Instructions for configuring Visual Studio Code for Python/COMPAS development are
-available in the COMPAS docs: https://compas-dev.github.io/main/environments/vscode.html.
+Instructions for configuring Sublime Text are available in the COMPAS docs:
+https://compas-dev.github.io/main/environments/sublimetext.html
 
 **Download repository**
-
-![Download WS_Anagni2019](images/download-repo.png)
 
 Finally, download this repository to your computer and unzip it.
 Use a sensible location for the download so you can easily find it afterwards.
 For example, create a folder called `Workshops` on your home drive and unzip the repository there.
 
+On Windows
+
 ```
 %USERPROFILE%\Workshops\WS_Anagni2019
 ```
 
-> **NOTE**
-> <br />
-> The name of the download archive will be `WS_Anagni2019-master.zip`.
-> <br />
-> When you right-click the archive, and select `Extract All...` from the menu,
-> make sure to remove `WS_Anagni2019-master` from the destination path.
-> <br />
-> Otherwise, you will end up with `%USERPROFILE%\Workshops\WS_Anagni2019-master\WS_Anagni2019-master`
-> instead of `%USERPROFILE%\Workshops\WS_Anagni2019`.
+On Mac
 
+```
+~/Workshops/WS_Anagni2019
+```
+
+![Download WS_Anagni2019](images/download-repo.png)
 
 **Start the command line**
 
-The installation instructions in the next sections ([Installation](#Installation) and [Rhino configuration](#Rhino-configuration)) will have to be run from the "command line".
+Many instructions in the next sections will have to be run from the "command line".
 
 On Mac, simply use the "Terminal" app.
 On Windows, use the "Anaconda Prompt" instead of the "Command Prompt", and make sure to run it *as administrator*.
@@ -94,17 +92,19 @@ Note that, for simplicity, this guide just refers to the "command line", which t
 
 ## Installation
 
-![Install packages](images/install-packages.png)
-
 To install the Python packages that will be used throughout the workshop, use the command line to navigate to the root folder of the workshop repository (the folder containing the file `environment.yml`). For example, if you used the download path from above, do
+
+On Windows
 
 ```bash
 cd %USERPROFILE%\Workshops\WS_Anagni2019
+conda env update -f environment.yml
 ```
 
-Then run the following command
+On Mac
 
 ```bash
+cd ~/Workshops/WS_Anagni2019
 conda env update -f environment.yml
 ```
 
@@ -118,37 +118,6 @@ Otherwise, you can verify the installation by starting an interactive Python int
 >>> import compas_rbe
 >>> exit()
 ```
-
-## VS Code configuration
-
-![Download WS_Anagni2019](images/add-folder-to-workspace.png)
-
-To get started, open VS Code and add the repository root folder to a clean workspace. Use the link provided on the welcome screen, as depicted above, or find the option in the file menu:
-
-```
-File > Add Folder to Workspace
-```
-
-Then, open `examples/shortestpath_plot.py` and try to run it.
-The first time you open a Python file in VS Code it will ask to install the "Python" extension.
-Just follow the instructions. You will also have to select a Python interpreter.
-The interpreter can be selected here
-
-![Select Interpreter](images/select-interpreter.png)
-
-To run the script, either right-click the file and select `Run Python File in Terminal` or simply hit `F5`.
-The result in both cases should look like this
-
-![Shortest Path](images/shortestpath_plot.png)
-
-**Known Issues**
-
-> Your TERMINAL window says something like `The term 'conda' is not recognized as the name of a cmdlet, function, script file, or operable program.`
-
-This is likely because you are using the "powershell" to run the file.
-Use the dropdown to "Select Default Shell" and choose the "Command Prompt".
-
-![Powershell](images/select-default-shell.png)
 
 ## Rhino configuration
 
