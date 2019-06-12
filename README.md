@@ -1,4 +1,4 @@
-# International Summer School on Historic Masonry - Anagni 2019
+# International Summer School on Historic Masonry
 
 ![img](Tools/masonry_structures_school_2019_anagni-logo-e1547807560485_1550829849_1920x1080.png)
 
@@ -34,53 +34,47 @@ Time | Topic
  
 ## Preparations
 
+**0. Pre-processing**
+
+*   If you have an old version of Anaconda installed (for example Anaconda 2), please uninstall it.
+*   If you have a version of Python registered on your `PATH`, please remove it (Windows only).
+
 **1. Install required tools**
 
 *   [Anaconda 3](https://www.anaconda.com/distribution/)
 *   [Rhino](https://www.rhino3d.com/download)
-*   [VS Code](https://code.visualstudio.com/) or [Sublime Text 3](https://www.sublimetext.com/3) 
-*   [3DEC demo version](https://www.itascacg.com/software-demo)
+*   [VS Code](https://code.visualstudio.com/)
+*   [3DEC demo version](https://www.itascacg.com/software-demo) (Windows only)
+*   [Microsoft Visual C++ Compiler for Python 2.7](https://www.microsoft.com/en-us/download/details.aspx?id=44266) (Windows only)
+*   [Git](https://git-scm.com/downloads) (Windows only)
 
-If you still have an old installation of Anaconda (for example version 2), please remove it.
 Install Anaconda 3 in a sensible location, and don't register it on the PATH (Windows). 
 The recommended location for installing Anaconda is in your home directory
 
 * Mac: `~/anaconda3`
 * Windows: `%USERPROFILE%\Anaconda3`
 
-If you are using Rhino 5 on Windows, make sure to upgrade IronPython to `2.7.5`.
+If you are using Rhino 5 on Windows, make sure to upgrade IronPython to `2.7.5` (not the newest version, but specifically this version).
 There are [detailed instructions in the COMPAS documentation](https://compas-dev.github.io/main/environments/rhino.html)
 that explain how to do this.
 
-**2. Install COMPAS**
+Instructions for configuring Visual Studio Code for Python/COMPAS development are
+available in the COMPAS docs: https://compas-dev.github.io/main/environments/vscode.html.
 
-To install COMPAS, simply type the following on the command line
+**2. Install packages**
 
 > **Note**
->
-> On Windows, use the Anaconda Prompt (launched as administrator), not the Command Prompt.
+> <br />
+> For the following, on Windows, use the Anaconda Prompt (launched as administrator), not the Command Prompt.
 > <br />On Mac, use the Terminal.
->
 
 ```bash
-conda config --add channels conda-forge
-conda install COMPAS
+conda env update -f environment.yml
 ```
 
-On Mac, also run the following
-
-```bash
-conda install python.app
-```
-
-To check the installation, print the version of COMPAS in the interactive Python interpreter
-
-```python
->>> import compas
->>> compas.__version__
-'0.6.2'
->>> exit()
-```
+> **Note**
+> <br />
+> If the above command fails, try following the step-by-step instructions provided [here](prep_step-by-step.md) and see where you get stuck.
 
 **3. Install COMPAS for Rhino**
 
@@ -91,6 +85,7 @@ After that, on the command line, simply type
 
 ```bash
 python -m compas_rhino.install
+python -m compas_rhino.install -p compas_tna compas_assembly compas_rbe
 ```
 
 On Windows, you can specify the version of Rhino for which COMPAS should be installed.
@@ -99,27 +94,16 @@ To install COMPAS for Rhino 5 on Windows, do
 
 ```bash
 python -m compas_rhino.install -v 5.0
+python -m compas_rhino.install -v 5.0 -p compas_tna compas_assembly compas_rbe
 ```
 
-To check the installation, launch Rhino and run the verification script that
-can be found at the root of the workshop repo: `verify_rhino.py`
-To run a script in Rhino, just type `RunPythonScript` at the Rhino command prompt
-and select the verification scriopt from the repo.
-The script should print out the version of COMPAS (`'0.6.2'`) in the console window.
+To check the installation, launch Rhino, open the PythonScriptEditor and try
+importing the packages in a script. If no errors pop up, you are good to go.
 
-![Rhino - verify](images/rhino-verify.png)
-
-
-**4. Install additional packages**
-
-* shapely
-* cvxopt
-* cvxpy
-* cplex
-
-## First Steps
-
-
-
-## Known Issues
-
+```python
+import compas
+import compas_rhino
+import compas_tna
+import compas_assembly
+import compas_rbe
+```
