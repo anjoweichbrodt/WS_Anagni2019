@@ -31,12 +31,12 @@ Time | Topic
  
 ## Preparations
 
-**1. Pre-processing**
+**Pre-processing**
 
 *   If you have an old version of Anaconda installed (for example Anaconda 2), please uninstall it.
 *   If you have a version of Python registered on your `PATH`, please remove it (Windows only).
 
-**2. Install required tools**
+**Install required software**
 
 *   [Anaconda 3](https://www.anaconda.com/distribution/)
 *   [Rhino](https://www.rhino3d.com/download)
@@ -45,8 +45,7 @@ Time | Topic
 *   [Microsoft Visual C++ Compiler for Python 2.7](https://www.microsoft.com/en-us/download/details.aspx?id=44266) (Windows only)
 *   [Git](https://git-scm.com/downloads) (Windows only)
 
-Install Anaconda 3 in a sensible location, and don't register it on the PATH (Windows). 
-The recommended location for installing Anaconda is in your home directory
+Please install Anaconda in the recommended location, and don't register it on the PATH (Windows). The recommended location for installing Anaconda is in your home directory
 
 * Mac: `~/anaconda3`
 * Windows: `%USERPROFILE%\Anaconda3`
