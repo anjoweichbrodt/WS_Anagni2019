@@ -31,7 +31,7 @@ Time | Topic
  
 ## Preparations
 
-**Pre-processing**
+**Clean up**
 
 *   If you have an old version of Anaconda installed (for example Anaconda 2), please uninstall it.
 *   If you have a version of Python registered on your `PATH`, please remove it (Windows only).
@@ -81,7 +81,7 @@ The download button is green and somewhere on the top right.
 ![Download WS_Anagni2019](images/download-repo.png)
 
 Use a sensible location for the download so you can easily find it afterwards.
-For example, create a folder called `Workshops` on your home drive and unzip the repository there.
+For example, create a folder called "Workshops" on your home drive and unzip the repository there.
 
 *On Windows*
 
@@ -99,13 +99,18 @@ For example, create a folder called `Workshops` on your home drive and unzip the
 
 Many instructions in the next sections will have to be run from "the command line".
 
-On Mac, use the "Terminal" app.
-On Windows, use the "Anaconda Prompt" instead of the "Command Prompt", and make sure to run it *as administrator*.
+*On Windows*
+
+Use the "Anaconda Prompt" instead of the "Command Prompt", and make sure to run it *as administrator*.
 To find the Anaconda Prompt open the Start Menu and type "Anaconda".
 The Anaconda Prompt should already show up in the list of search results.
 To launch is as administrator, right click and select "Run as administrator".
 
-Note that, for simplicity, this guide just refers to both Terminal and Anaconda Prompt as "the command line", which thus means the former on Mac and the latter on Windows.
+*On Mac*
+
+Use the "Terminal" app.
+
+> For simplicity, this guide just refers to both Terminal and Anaconda Prompt as "the command line", which thus means the former on Mac and the latter on Windows.
 
 ## Installation
 
@@ -135,7 +140,6 @@ Then try to import the packages that were just installed.
 >>> import compas
 >>> import compas_plotters
 >>> import compas_rhino
->>> import compas_blender
 >>> import compas_tna
 >>> import compas_assembly
 >>> import compas_rbe
@@ -144,32 +148,31 @@ Then try to import the packages that were just installed.
 
 ## Rhino configuration
 
-If this is the first time you are using Rhino (Windows), or if you have never opened the
-PythonScriptEditor before, do so now: open Rhino and open the editor by typing `EditPythonScript`. Then simply close Rhino again, and on the command line type
+If this is the first time you are using Rhino 6 for Windows, or if you have never opened its
+PythonScriptEditor before, do so now: open Rhino and open the editor by typing `EditPythonScript`.
+Then simply close Rhino again.
+
+To install the COMPAS packages, type the following on the command line
 
 ```bash
-python -m compas_rhino.install
-python -m compas_rhino.install -p compas_tna compas_assembly compas_rbe
+python -m compas_rhino.install -p compas compas_rhino compas_tna compas_assembly
 ```
 
-On Windows, you can specify the version of Rhino for which COMPAS should be installed.
-The default on Windows is Rhino 6 and on Mac there is only Rhino 5.
-To install COMPAS for Rhino 5 on Windows, do
+On Windows, COMPAS packages are installed for Rhino 6 by default.
+To install COMPAS for Rhino 5 instead, do
 
 ```bash
-python -m compas_rhino.install -v 5.0
-python -m compas_rhino.install -v 5.0 -p compas_tna compas_assembly compas_rbe
+python -m compas_rhino.install -v 5.0 -p compas compas_rhino compas_tna compas_assembly
 ```
 
-To check the installation, launch Rhino, open the PythonScriptEditor and try
-importing the packages in a script. If no errors pop up, you are good to go.
+To check the installation, launch Rhino, open the PythonScriptEditor, and try
+importing the COMPAS packages in a script. If no errors pop up, you are good to go.
 
 ```python
 import compas
 import compas_rhino
 import compas_tna
 import compas_assembly
-import compas_rbe
 ```
 
 ## Issues
