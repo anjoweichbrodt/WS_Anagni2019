@@ -148,3 +148,12 @@ import compas_tna
 import compas_assembly
 import compas_rbe
 ```
+
+## Issues
+
+If you run into problems with the above instructions, the preferred way to ask
+for help is through the issue tracker: https://github.com/BlockResearchGroup/WS_Anagni2019/issues
+
+Otherwise you can also contact us via email (dellendice@arch.ethz.ch).
+
+![Issue Tracker](images/issue-tracker.png)
