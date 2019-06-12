@@ -95,22 +95,24 @@ For example, create a folder called "Workshops" on your home drive and unzip the
 ~/Workshops/WS_Anagni2019
 ```
 
-**The command line**
+## The command line
 
 Many instructions in the next sections will have to be run from "the command line".
 
 *On Windows*
 
 Use the "Anaconda Prompt" instead of the "Command Prompt", and make sure to run it *as administrator*.
-To find the Anaconda Prompt open the Start Menu and type "Anaconda".
-The Anaconda Prompt should already show up in the list of search results.
-To launch is as administrator, right click and select "Run as administrator".
+
+> To find the Anaconda Prompt open the Start Menu and type "Anaconda".
+> The Anaconda Prompt should already show up in the list of search results.
+> To launch is as administrator, right click and select "Run as administrator".
 
 *On Mac*
 
 Use the "Terminal" app.
 
-> For simplicity, this guide just refers to both Terminal and Anaconda Prompt as "the command line", which thus means the former on Mac and the latter on Windows.
+**For simplicity, this guide refers to both Terminal and Anaconda Prompt as "the command line",
+which thus means the Terminal on Mac and the Anaconda Prompt (run as administrator) on Windows.**
 
 ## Installation
 
@@ -177,10 +179,13 @@ import compas_assembly
 
 ## Issues
 
+**Many problems during installation are related to misspelled paths or command line instructions.
+Always check that first.**
+
 If you run into problems with the above instructions, the preferred way to ask
-for help is through the issue tracker: https://github.com/BlockResearchGroup/WS_Anagni2019/issues
+for help is through the issue tracker of the current repository at https://github.com/BlockResearchGroup/WS_Anagni2019/issues
 such that others can benefit from the discussion.
 
-Otherwise you can also contact us via email (dellendice@arch.ethz.ch).
+Otherwise you can also contact us via email at dellendice@arch.ethz.ch.
 
 ![Issue Tracker](images/issue-tracker.png)
