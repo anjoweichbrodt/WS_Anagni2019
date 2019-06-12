@@ -1,6 +1,6 @@
 # International Summer School on Historic Masonry
 
-![img](Tools/masonry_structures_school_2019_anagni-logo-e1547807560485_1550829849_1920x1080.png)
+![Anagni 2019](images/anagni2019.png)
 
 *   [General website](https://historicmasonryschool2019.wordpress.com/)
 *   [BRG website](http://www.block.arch.ethz.ch/brg/teaching/historic-masonry-summer-school-anagni-2019)
