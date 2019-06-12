@@ -2,9 +2,6 @@
 
 ![Anagni 2019](images/anagni2019.png)
 
-*   [General website](https://historicmasonryschool2019.wordpress.com/)
-*   [BRG website](http://www.block.arch.ethz.ch/brg/teaching/historic-masonry-summer-school-anagni-2019)
-
 ## Schedule
 
 **Tuesday 18/06/2019**
@@ -34,12 +31,12 @@ Time | Topic
  
 ## Preparations
 
-**0. Pre-processing**
+**1. Pre-processing**
 
 *   If you have an old version of Anaconda installed (for example Anaconda 2), please uninstall it.
 *   If you have a version of Python registered on your `PATH`, please remove it (Windows only).
 
-**1. Install required tools**
+**2. Install required tools**
 
 *   [Anaconda 3](https://www.anaconda.com/distribution/)
 *   [Rhino](https://www.rhino3d.com/download)
@@ -61,22 +58,24 @@ that explain how to do this.
 Instructions for configuring Visual Studio Code for Python/COMPAS development are
 available in the COMPAS docs: https://compas-dev.github.io/main/environments/vscode.html.
 
-**2. Install packages**
+
+## Installation
 
 > **Note**
 > <br />
 > For the following, on Windows, use the Anaconda Prompt (launched as administrator), not the Command Prompt.
 > <br />On Mac, use the Terminal.
 
+To install the Python packages that will be used throughout the workshop, run the following from the command line.
+
 ```bash
 conda env update -f environment.yml
 ```
 
-> **Note**
-> <br />
-> If the above command fails, try following the step-by-step instructions provided [here](prep_step-by-step.md) and see where you get stuck.
+If this above command fails, try following the step-by-step instructions provided [here](prep_step-by-step.md) and let us know where you get stuck.
 
-**3. Install COMPAS for Rhino**
+
+## Rhino configuration
 
 If this is the first time you are using Rhino (Windows), or if you have never opened the
 RhinoScriptEditor before, first open Rhino and then the RhinoScriptEditor,
