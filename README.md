@@ -179,6 +179,7 @@ import compas_assembly
 
 If you run into problems with the above instructions, the preferred way to ask
 for help is through the issue tracker: https://github.com/BlockResearchGroup/WS_Anagni2019/issues
+such that others can benefit from the discussion.
 
 Otherwise you can also contact us via email (dellendice@arch.ethz.ch).
 
