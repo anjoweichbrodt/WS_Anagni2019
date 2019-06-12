@@ -59,12 +59,14 @@ available in the COMPAS docs: https://compas-dev.github.io/main/environments/vsc
 
 **Download repository**
 
+![Download WS_Anagni2019](images/download-repo.png)
+
 Finally, download this repository to your computer and unzip it.
 Use a sensible location for the download so you can easily find it afterwards.
-For example, you could create a folder called `Anagni2019` on your home drive and unzip the repository there.
+For example, create a folder called `Workshops` on your home drive and unzip the repository there.
 
 ```
-C:\Users\<username>\Anagni2019\WS_Anagni2019
+%USERPROFILE%\Workshops\WS_Anagni2019
 ```
 
 Then, open VS Code and add the repository root folder to a clean workspace.
