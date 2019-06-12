@@ -55,7 +55,7 @@ If you are using Rhino 5 on Windows, make sure to upgrade IronPython to `2.7.5` 
 There are [detailed instructions in the COMPAS documentation](https://compas-dev.github.io/main/environments/rhino.html)
 that explain how to do this.
 
-Instructions for configuring Sublime Text are available in the COMPAS docs:
+Instructions for configuring Sublime Text are also available in the COMPAS docs:
 https://compas-dev.github.io/main/environments/sublimetext.html
 
 **Download repository**
@@ -78,7 +78,7 @@ On Mac
 
 ![Download WS_Anagni2019](images/download-repo.png)
 
-**Start the command line**
+**The command line**
 
 Many instructions in the next sections will have to be run from the "command line".
 
