@@ -69,6 +69,17 @@ For example, create a folder called `Workshops` on your home drive and unzip the
 %USERPROFILE%\Workshops\WS_Anagni2019
 ```
 
+> **NOTE**
+> <br />
+> The name of the download archive will be `WS_Anagni2019-master.zip.
+> <br />
+> When you right-click the archive, and select `Extract All...` from the menu,
+> make sure to `remove `WS_Anagni2019-master` from the destination path.
+> Otherwise, you will end up with the following result
+> `%USERPROFILE%\Workshops\WS_Anagni2019-master\WS_Anagni2019-master`
+> instead of `%USERPROFILE%\Workshops\WS_Anagni2019`
+
+
 ![Download WS_Anagni2019](images/add-folder-to-workspace.png)
 
 Then, open VS Code and add the repository root folder to a clean workspace. Use the link provided on the welcome screen, as depicted above, or find the option in the file menu.
@@ -105,7 +116,7 @@ Then run the following command
 conda env update -f environment.yml
 ```
 
-If this above command fails, try following [the step-by-step instructions provided here](prep_step-by-step.md) and let us know where you get stuck.
+If this fails, try following [the step-by-step instructions](prep_step-by-step.md) and let us know where you get stuck.
 
 
 ## Rhino configuration
