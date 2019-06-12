@@ -71,22 +71,14 @@ For example, create a folder called `Workshops` on your home drive and unzip the
 
 > **NOTE**
 > <br />
-> The name of the download archive will be `WS_Anagni2019-master.zip.
+> The name of the download archive will be `WS_Anagni2019-master.zip`.
 > <br />
 > When you right-click the archive, and select `Extract All...` from the menu,
-> make sure to `remove `WS_Anagni2019-master` from the destination path.
-> Otherwise, you will end up with the following result
-> `%USERPROFILE%\Workshops\WS_Anagni2019-master\WS_Anagni2019-master`
-> instead of `%USERPROFILE%\Workshops\WS_Anagni2019`
+> make sure to remove `WS_Anagni2019-master` from the destination path.
+> <br />
+> Otherwise, you will end up with `%USERPROFILE%\Workshops\WS_Anagni2019-master\WS_Anagni2019-master`
+> instead of `%USERPROFILE%\Workshops\WS_Anagni2019`.
 
-
-![Download WS_Anagni2019](images/add-folder-to-workspace.png)
-
-Then, open VS Code and add the repository root folder to a clean workspace. Use the link provided on the welcome screen, as depicted above, or find the option in the file menu.
-
-```
-VS Code > File > Add Folder to Workspace
-```
 
 **Start the command line**
 
@@ -117,7 +109,41 @@ conda env update -f environment.yml
 ```
 
 If this fails, try following [the step-by-step instructions](prep_step-by-step.md) and let us know where you get stuck.
+Otherwise, you can verify the installation by starting an interactive Python interpreter (simply type `python` on the command line) and try to import the various packages that were just installed.
 
+```python
+>>> import compas
+>>> import compas_tna
+>>> import compas_assembly
+>>> import compas_rbe
+>>> exit()
+```
+
+## VS Code configuration
+
+![Download WS_Anagni2019](images/add-folder-to-workspace.png)
+
+Then, open VS Code and add the repository root folder to a clean workspace. Use the link provided on the welcome screen, as depicted above, or find the option in the file menu.
+
+```
+VS Code > File > Add Folder to Workspace
+```
+
+Finally, open `examples/shortestpath_plot.py` and try to run it.
+To run a Python file in VS Code, either right-click the file and select `Run Python File in Terminal` or simply hit `F5`.
+
+The result in both cases should look like this
+
+![Shortest Path](images/shortestpath_plot.png)
+
+**Known Issues**
+
+> Problem: Your TERMINAL window says something like `The term 'conda' is not recognized as the name of a cmdlet, function, script file, or operable program.`
+
+This is likely because you are using the "powershell" to run the file.
+Use the dropdown to "Select Default Shell" and choose the "Command Prompt".
+
+![Powershell](images/select-default-shell.png)
 
 ## Rhino configuration
 
