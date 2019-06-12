@@ -50,7 +50,7 @@ Please install Anaconda in the recommended location, and don't register it on th
 * Mac: `~/anaconda3`
 * Windows: `%USERPROFILE%\Anaconda3`
 
-If you are using Rhino 5 on Windows, make sure to upgrade IronPython to `2.7.5` (not the newest version, but specifically this version).
+If you are using Rhino 5 on Windows, make sure to upgrade IronPython to `2.7.5` (not the newest version, but this specific version).
 There are [detailed instructions in the COMPAS documentation](https://compas-dev.github.io/main/environments/rhino.html)
 that explain how to do this.
 
@@ -76,10 +76,13 @@ If this above command fails, try following the step-by-step instructions provide
 
 ## Rhino configuration
 
+> **Note**
+> <br />
+> For the following, on Windows, use the Anaconda Prompt (launched as administrator), not the Command Prompt.
+> <br />On Mac, use the Terminal.
+
 If this is the first time you are using Rhino (Windows), or if you have never opened the
-RhinoScriptEditor before, first open Rhino and then the RhinoScriptEditor,
-by typing `EditPythonScript`. Then simply close Rhino again.
-After that, on the command line, simply type
+PythonScriptEditor before, do so now: open Rhino and open the editor by typing `EditPythonScript`. Then simply close Rhino again, and on the command line type
 
 ```bash
 python -m compas_rhino.install
