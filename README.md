@@ -123,22 +123,27 @@ Otherwise, you can verify the installation by starting an interactive Python int
 
 ![Download WS_Anagni2019](images/add-folder-to-workspace.png)
 
-Then, open VS Code and add the repository root folder to a clean workspace. Use the link provided on the welcome screen, as depicted above, or find the option in the file menu.
+To get started, open VS Code and add the repository root folder to a clean workspace. Use the link provided on the welcome screen, as depicted above, or find the option in the file menu:
 
 ```
-VS Code > File > Add Folder to Workspace
+File > Add Folder to Workspace
 ```
 
-Finally, open `examples/shortestpath_plot.py` and try to run it.
-To run a Python file in VS Code, either right-click the file and select `Run Python File in Terminal` or simply hit `F5`.
+Then, open `examples/shortestpath_plot.py` and try to run it.
+The first time you open a Python file in VS Code it will ask to install the "Python" extension.
+Just follow the instructions. You will also have to select a Python interpreter.
+The interpreter can be selected here
 
+![Select Interpreter](images/select-interpreter.png)
+
+To run the script, either right-click the file and select `Run Python File in Terminal` or simply hit `F5`.
 The result in both cases should look like this
 
 ![Shortest Path](images/shortestpath_plot.png)
 
 **Known Issues**
 
-> Problem: Your TERMINAL window says something like `The term 'conda' is not recognized as the name of a cmdlet, function, script file, or operable program.`
+> Your TERMINAL window says something like `The term 'conda' is not recognized as the name of a cmdlet, function, script file, or operable program.`
 
 This is likely because you are using the "powershell" to run the file.
 Use the dropdown to "Select Default Shell" and choose the "Command Prompt".
