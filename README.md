@@ -57,6 +57,21 @@ that explain how to do this.
 Instructions for configuring Visual Studio Code for Python/COMPAS development are
 available in the COMPAS docs: https://compas-dev.github.io/main/environments/vscode.html.
 
+**Download repository**
+
+Finally, download this repository to your computer and unzip it.
+Use a sensible location for the download so you can easily find it afterwards.
+For example, you could create a folder called `Anagni2019` on your home drive and unzip the repository there.
+
+```
+C:\Users\<username>\Anagni2019\WS_Anagni2019
+```
+
+Then, open VS Code and add the repository root folder to a clean workspace.
+
+```
+VS Code > File > Add Folder to Workspace
+```
 
 ## Installation
 
@@ -65,13 +80,14 @@ available in the COMPAS docs: https://compas-dev.github.io/main/environments/vsc
 > For the following, on Windows, use the Anaconda Prompt (launched as administrator), not the Command Prompt.
 > <br />On Mac, use the Terminal.
 
-To install the Python packages that will be used throughout the workshop, run the following from the command line.
+To install the Python packages that will be used throughout the workshop, navigate to the root folder of the workshop repository,
+and run the following from the command line.
 
 ```bash
 conda env update -f environment.yml
 ```
 
-If this above command fails, try following the step-by-step instructions provided [here](prep_step-by-step.md) and let us know where you get stuck.
+If this above command fails, try following [the step-by-step instructions provided here](prep_step-by-step.md) and let us know where you get stuck.
 
 
 ## Rhino configuration
