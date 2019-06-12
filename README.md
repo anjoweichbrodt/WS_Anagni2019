@@ -75,6 +75,8 @@ Then, open VS Code and add the repository root folder to a clean workspace.
 VS Code > File > Add Folder to Workspace
 ```
 
+![Download WS_Anagni2019](images/add-folder-to-workspace.png)
+
 ## Installation
 
 > **Note**
