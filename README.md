@@ -45,7 +45,7 @@ Time | Topic
 *   [Microsoft Visual C++ Compiler for Python 2.7](https://www.microsoft.com/en-us/download/details.aspx?id=44266) (Windows only)
 *   [Git](https://git-scm.com/downloads) (Windows only)
 
-Please install Anaconda in the recommended location, and don't register it on the PATH (Windows). The recommended location for installing Anaconda is in your home directory
+Please install Anaconda in the recommended location, and don't register it on the `PATH` (Windows). The recommended location for installing Anaconda is in your home directory
 
 * Mac: `~/anaconda3`
 * Windows: `%USERPROFILE%\Anaconda3`
@@ -69,23 +69,37 @@ For example, create a folder called `Workshops` on your home drive and unzip the
 %USERPROFILE%\Workshops\WS_Anagni2019
 ```
 
-Then, open VS Code and add the repository root folder to a clean workspace.
+![Download WS_Anagni2019](images/add-folder-to-workspace.png)
+
+Then, open VS Code and add the repository root folder to a clean workspace. Use the link provided on the welcome screen, as depicted above, or find the option in the file menu.
 
 ```
 VS Code > File > Add Folder to Workspace
 ```
 
-![Download WS_Anagni2019](images/add-folder-to-workspace.png)
+**Start the command line**
+
+The installation instructions in the next sections ([Installation](#Installation) and [Rhino configuration](#Rhino-configuration)) will have to be run from the "command line".
+
+On Mac, simply use the "Terminal" app.
+On Windows, use the "Anaconda Prompt" instead of the "Command Prompt", and make sure to run it *as administrator*.
+To find the Anaconda Prompt, simply open the Start Menu and type `Anaconda`.
+The Anaconda Prompt will show in the list of search results.
+To launch is as administrator, right click and select "Run as administrator".
+
+Note that, for simplicity, this guide just refers to the "command line", which thus means the Terminal on Mac and the Anaconda Prompt on Windows.
 
 ## Installation
 
-> **Note**
-> <br />
-> For the following, on Windows, use the Anaconda Prompt (launched as administrator), not the Command Prompt.
-> <br />On Mac, use the Terminal.
+![Install packages](images/install-packages.png)
 
-To install the Python packages that will be used throughout the workshop, navigate to the root folder of the workshop repository,
-and run the following from the command line.
+To install the Python packages that will be used throughout the workshop, use the command line to navigate to the root folder of the workshop repository (the folder containing the file `environment.yml`). For example, if you used the download path from above, do
+
+```bash
+cd %USERPROFILE%\Workshops\WS_Anagni2019
+```
+
+Then run the following command
 
 ```bash
 conda env update -f environment.yml
@@ -95,11 +109,6 @@ If this above command fails, try following [the step-by-step instructions provid
 
 
 ## Rhino configuration
-
-> **Note**
-> <br />
-> For the following, on Windows, use the Anaconda Prompt (launched as administrator), not the Command Prompt.
-> <br />On Mac, use the Terminal.
 
 If this is the first time you are using Rhino (Windows), or if you have never opened the
 PythonScriptEditor before, do so now: open Rhino and open the editor by typing `EditPythonScript`. Then simply close Rhino again, and on the command line type
