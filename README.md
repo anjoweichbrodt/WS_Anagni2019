@@ -172,7 +172,7 @@ import compas_tna
 import compas_assembly
 ```
 
-## Issues
+## Get help
 
 **Many problems during installation are related to misspelled paths or command line instructions.**
 
@@ -183,3 +183,7 @@ such that others can benefit from the discussion.
 Otherwise you can also contact us via email at dellendice@arch.ethz.ch.
 
 ![Issue Tracker](images/issue-tracker.png)
+
+## Known issues
+
+*Under construction.*
