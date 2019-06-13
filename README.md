@@ -1,4 +1,14 @@
-# International Summer School on Historic Masonry
+# Workshop COMPAS masonry
+
+*Computational assessment of masonry structures*
+
+* http://block.arch.ethz.ch/brg/teaching/historic-masonry-summer-school-anagni-2019
+* https://historicmasonryschool2019.wordpress.com/
+* https://github.com/compas-dev/compas
+* https://github.com/BlockResearchGroup/compas_tna
+* https://github.com/BlockResearchGroup/compas_assembly
+* https://github.com/BlockResearchGroup/compas_rbe
+
 
 ![Anagni 2019](images/anagni2019.png)
 
