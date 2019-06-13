@@ -51,6 +51,9 @@ During the installation of the various tools, just accept all default settings.
 The default location for installing Anaconda is usually in the home directory.
 If it isn't, try to install it there anyway.
 And make sure not to register it on the `PATH` (Windows only).
+On Windows, the path to the home directory is stored in the variable `%USERPROFILE%`.
+On Mac, it is accessible through `~`.
+This results in the following recommended installation directories for Anaconda.
 
 *On Windows*
 
@@ -64,8 +67,8 @@ And make sure not to register it on the `PATH` (Windows only).
 ~/anaconda3
 ```
 
-If you are using Rhino 5 on Windows, make sure to upgrade IronPython to `2.7.5`
-(not to the newest version, but to this specific version).
+**If you are using Rhino 5 on Windows, you have to upgrade the built-in IronPython to version `2.7.5`.
+Not to the newest version, but to this specific version.**
 There are [detailed instructions](https://compas-dev.github.io/main/environments/rhino.html)
 in the COMPAS documentation that explain how to do this.
 
@@ -75,8 +78,8 @@ https://compas-dev.github.io/main/environments/sublimetext.html
 **3. Download repository**
 
 Finally, download the workshop repository to your computer and unzip it.
-You should be on the main repository page now.
-The download button is green and somewhere on the top right.
+You should be on the [main repository page](https://github.com/BlockResearchGroup/WS_Anagni2019) now.
+The download button is green and somewhere on the top right of the page.
 
 ![Download WS_Anagni2019](images/download-repo.png)
 
@@ -109,9 +112,12 @@ On Mac, use the "Terminal".
 
 **For simplicity, this guide will refer to both Terminal and Anaconda Prompt as "the command line".**
 
+![The command line](images/the-command-line.png)
+
 ## Installation
 
-Use the command line to install the COMPAS Python packages (and their dependencies) required for the workshop.
+We will use the command line to install the COMPAS Python packages (and their dependencies) required for the workshop.
+
 First, navigate to the root folder of the workshop repository (the folder containing the file `environment.yml`).
 For example, if you used the download path from above, do
 
@@ -143,6 +149,8 @@ Then try to import the packages that were just installed.
 >>> exit()
 ```
 
+![Test installation](images/test-installation.png)
+
 ## Rhino configuration
 
 If this is the first time you are using Rhino 6 for Windows, or if you have never opened its
@@ -163,7 +171,8 @@ python -m compas_rhino.install -v 5.0 -p compas compas_rhino compas_tna compas_a
 ```
 
 To check the installation, launch Rhino, open the PythonScriptEditor, and try
-importing the COMPAS packages in a script. If no errors pop up, you are good to go.
+importing the COMPAS packages in a script.
+Then run the script and if no errors pop up, you are good to go.
 
 ```python
 import compas
@@ -171,6 +180,8 @@ import compas_rhino
 import compas_tna
 import compas_assembly
 ```
+
+![Test Rhino](images/test-rhino.png)
 
 ## Get help
 
