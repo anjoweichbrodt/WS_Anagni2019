@@ -151,7 +151,6 @@ Then try to import the packages that were just installed.
 
 ```python
 >>> import compas
->>> import compas_plotters
 >>> import compas_rhino
 >>> import compas_tna
 >>> import compas_assembly
