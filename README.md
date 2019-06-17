@@ -6,9 +6,9 @@
 * https://historicmasonryschool2019.wordpress.com/
 * https://github.com/compas-dev/compas
 * https://github.com/BlockResearchGroup/compas_tna
+* https://github.com/BlockResearchGroup/compas_tna-UI
 * https://github.com/BlockResearchGroup/compas_assembly
 * https://github.com/BlockResearchGroup/compas_rbe
-
 
 ![Anagni 2019](images/anagni2019.png)
 
@@ -163,7 +163,7 @@ Then try to import the packages that were just installed.
 ![Test installation](images/test-installation.png)
 
 
-## Rhino configuration
+## Rhino
 
 If this is the first time you are using Rhino 6 for Windows, or if you have never opened its
 PythonScriptEditor before, do so now: open Rhino and open the editor by typing `EditPythonScript`.
@@ -194,6 +194,9 @@ import compas_assembly
 ```
 
 ![Test Rhino](images/test-rhino.png)
+
+
+## Rhino UI
 
 
 ## Get help
@@ -228,8 +231,7 @@ roll back has completed.
 conda update conda
 ```
 
-You will also have to remove `compas_tna`, `compas_rbe`, and `compas_assembly`
-separately.
+You will also have to remove `compas_tna`, `compas_rbe`, and `compas_assembly`, "manually".
 
 ```bash
 pip uninstall compas_tna
