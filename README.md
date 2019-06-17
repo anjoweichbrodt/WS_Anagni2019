@@ -198,6 +198,9 @@ import compas_assembly
 
 ## Rhino UI
 
+To install the Rhino (Python)CommandPlugin for `compas_tna`, follow the instructions
+available here https://github.com/BlockResearchGroup/compas_tna-UI
+
 
 ## Get help
 
@@ -215,7 +218,7 @@ Otherwise you can also contact us via email at dellendice@arch.ethz.ch.
 ## Troubleshooting
 
 If the installation procedure outlined above failed,
-you could reset the environment and start over.
+you can reset the environment and start over.
 
 **On Windows, make sure to run the command line (Anaconda Prompt) as administrator.**
 
@@ -223,7 +226,7 @@ you could reset the environment and start over.
 conda install --revision 1
 ```
 
-This might take a while (10 min).
+This sometimes takes a while (up to 10 min).
 Just follow the instructions, and update `conda` to the latest version once the
 roll back has completed.
 
@@ -240,12 +243,18 @@ pip uninstall compas_assembly
 ```
 
 After all this, you can use the environment file to re-install all necessary packages.
+Or, better yet, install it in a separate environment called `anagni2019`.
 
 ```bash
+conda create -n anagni2019 python=3.6
+conda activate anagni2019
 conda env update -f environment.yml
 ```
 
 Check the installation with an interactive Python interpreter.
+
+**If you create a separate environment, make sure this environment is active when
+you launch the Python interpreter (type `python` on the command line) to run or test things.**
 
 ```python
 import compas
@@ -255,6 +264,10 @@ import compas_rbe
 ```
 
 Finally, update the Rhino installation.
+
+**If you create a separate environment, make sure this environment is active when
+you make changes to the Rhino installation. Only the functionality of the active
+environment at the time of running the following commands is available in Rhino.**
 
 ```bash
 python -m compas_rhino.uninstall
@@ -267,3 +280,6 @@ Or, for Rhino 5 on Windows
 python -m compas_rhino.uninstall -v 5.0
 python -m compas_rhino.install -v 5.0 -p compas compas_rhino compas_tna compas_assembly
 ```
+
+The functionality of the installed environment is available the next time you
+start Rhino.
