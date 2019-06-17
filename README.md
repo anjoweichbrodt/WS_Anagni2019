@@ -132,36 +132,21 @@ On Mac, use the "Terminal".
 We will use the command line to install the COMPAS Python packages (and their dependencies) required for the workshop.
 
 First, navigate to the root folder of the workshop repository (the folder containing the file `environment.yml`).
-Then, create an environment for the workshop called "anagni2019" and install the
-required Python packages in it.
-
 For example, if you used the download path from above, do
 
 *On Windows*
 
 ```bash
 cd %USERPROFILE%\Workshops\WS_Anagni2019
-conda env create -f environment.yml
+conda env update -f environment.yml
 ```
 
 *On Mac*
 
 ```bash
 cd ~/Workshops/WS_Anagni2019
-conda env create -f environment.yml
+conda env update -f environment.yml
 ```
-
-**Don't forget to activate the environment!**
-
-```bash
-conda activate anagni2019
-```
-
-> The name of the active environment appears at the beginning of the current command line.
-> For example, if the "base" environment is active, you will see something like
-> `(base) C:\Users\user>`. When the workshop environment is active, you should see
-> something like `(anagni2019) C:\Users\user>`.
-
 
 Finally, verify the installation using an interactive Python session.
 Start the session by typing `python` on the command line. 
@@ -184,9 +169,7 @@ If this is the first time you are using Rhino 6 for Windows, or if you have neve
 PythonScriptEditor before, do so now: open Rhino and open the editor by typing `EditPythonScript`.
 Then simply close Rhino again.
 
-To install the COMPAS packages, type the following on the command line.
-
-**Make sure the workshop environment ("anagni2019") is active!**
+To install the COMPAS packages, type the following on the command line
 
 ```bash
 python -m compas_rhino.install -p compas compas_rhino compas_tna compas_assembly
@@ -225,65 +208,3 @@ Otherwise you can also contact us via email at dellendice@arch.ethz.ch.
 
 ![Issue Tracker](images/issue-tracker.png)
 
-
-## Troubleshooting
-
-If you had installed all packages in the base environment and you would like to install
-them in a dedicated workshop environment instead (recommended), while resetting the
-base to its original state, do the following.
-
-**On Windows, make sure to run the command line (Anaconda Prompt) as administrator.**
-
-```bash
-conda install --revision 1
-```
-
-This might take a while (10 min).
-Just follow the instructions, and update `conda` to the latest version once the
-roll back has completed.
-
-```bash
-conda update conda
-```
-
-You will also have to remove `compas_tna`, `compas_rbe`, and `compas_assembly`
-separately.
-
-```bash
-pip uninstall compas_tna
-pip uninstall compas_rbe
-pip uninstall compas_assembly
-```
-
-After all this, you can use the environment file to create a dedicated environment
-for the workshop and install all necessary packages.
-
-```bash
-conda env create -f environment.yml
-conda activate anagni2019
-```
-
-Check the installation with an interactive Python interpreter.
-
-```python
-import compas
-import compas_tna
-import compas_assembly
-import compas_rbe
-```
-
-Finally, update the Rhino installation.
-
-**Make sure that the "anagni2019" environment is active!**
-
-```bash
-python -m compas_rhino.uninstall
-python -m compas_rhino.install -p compas compas_rhino compas_tna compas_assembly
-```
-
-Or, for Rhino 5 on Windows
-
-```bash
-python -m compas_rhino.uninstall -v 5.0
-python -m compas_rhino.install -v 5.0 -p compas compas_rhino compas_tna compas_assembly
-```
