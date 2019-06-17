@@ -208,3 +208,60 @@ Otherwise you can also contact us via email at dellendice@arch.ethz.ch.
 
 ![Issue Tracker](images/issue-tracker.png)
 
+
+## Troubleshooting
+
+If the installation procedure outlined above failed,
+you could reset the environment and start over.
+
+**On Windows, make sure to run the command line (Anaconda Prompt) as administrator.**
+
+```bash
+conda install --revision 1
+```
+
+This might take a while (10 min).
+Just follow the instructions, and update `conda` to the latest version once the
+roll back has completed.
+
+```bash
+conda update conda
+```
+
+You will also have to remove `compas_tna`, `compas_rbe`, and `compas_assembly`
+separately.
+
+```bash
+pip uninstall compas_tna
+pip uninstall compas_rbe
+pip uninstall compas_assembly
+```
+
+After all this, you can use the environment file to re-install all necessary packages.
+
+```bash
+conda env update -f environment.yml
+```
+
+Check the installation with an interactive Python interpreter.
+
+```python
+import compas
+import compas_tna
+import compas_assembly
+import compas_rbe
+```
+
+Finally, update the Rhino installation.
+
+```bash
+python -m compas_rhino.uninstall
+python -m compas_rhino.install -p compas compas_rhino compas_tna compas_assembly
+```
+
+Or, for Rhino 5 on Windows
+
+```bash
+python -m compas_rhino.uninstall -v 5.0
+python -m compas_rhino.install -v 5.0 -p compas compas_rhino compas_tna compas_assembly
+```
