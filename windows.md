@@ -68,3 +68,24 @@ Make sure that you have `git` installed.
 The fastest and most efficient way to get help with any of the above steps is to post your problem on the issue tracker.
 
 https://github.com/BlockResearchGroup/WS_Anagni2019/issues
+
+
+**Updates**
+
+If you need to update one of the "masonry" packages (for example, because the guys providing support from Zurich made a change to the code of let's say `compas_assembly` :), do the following with the correct environment active (in this case, `masonry`).
+
+```bash
+pip install --upgrade git+https://github.com/BlockResearchGroup/compas_assembly.git#egg=compas_assembly
+```
+
+For the other packages, the procedure is the same, but no changes were made there!
+
+```bash
+pip install --upgrade git+https://github.com/BlockResearchGroup/compas_tna.git#egg=compas_tna
+```
+
+```bash
+pip install --upgrade git+https://github.com/BlockResearchGroup/compas_rbe.git#egg=compas_rbe
+```
+
+There is no need to reinstall for Rhino, but the changes will only have effect next time you start Rhino.
