@@ -6,6 +6,10 @@ dependencies:
   - python>=3.6
   - pip>=19.0
   - COMPAS>=0.6.1
+  - multiprocess
+  - fastcache
+  - lapack
+  - mkl
   - shapely
   - cvxopt
   - cvxpy
